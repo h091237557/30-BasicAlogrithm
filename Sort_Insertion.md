@@ -102,4 +102,3 @@ insertionSort([3,54,24,33,22,58,95,1,2,31])
 ## 參考資料
 * [https://zh.wikipedia.org/wiki/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F](https://zh.wikipedia.org/wiki/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F)
 * [http://www.books.com.tw/products/0010741391](http://www.books.com.tw/products/0010741391)
-* 
