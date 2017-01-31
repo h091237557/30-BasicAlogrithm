@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # 排序(3)之堆積排序法(Heap Sort)
 
 * 堆積排序法的原理
@@ -68,15 +69,53 @@
 2. 將`Tree`轉換成`Max Heap`
 3. 然後一直`re re re re`這流程，直到完全排序完成。
 
+下面我們將簡單用個範例，來說明他如下排序。首先我們有個要排序的陣列。
+
+```
+[08,14,16,10,9]
+```
+然後根據上述的`前置作業`先將它轉換成`Max Heap`。
+
+```
+[16,14,18,8,9]
+```
+
+接下來我們將要開始進行`重複作業`的步驟。首先，先將`16(root)`與`08(最後結點)`進行交換。其中下圖中的`Swap(0,4)`，代表著陣列位置為`0`與`4`的進資料進行交換。
+
 ![](http://yixiang8780.com/outImg/20170127-9.png)
+
+然後接鑑來我們進行`Max Heap`的步驟，我們將從陣列位置`0`的資料`9`進行`Max Heap`，因為`9`小於`14與10`因此選擇較大者`14`進行交換。
+
 ![](http://yixiang8780.com/outImg/20170127-10.png)
+
+再將`14(root)`與`8(最後結點)`進行交換，注意這時最後結點是`8`了喔。
+
 ![](http://yixiang8780.com/outImg/20170127-11.png)
+
+然後在進行`Max Heap`，`8`小於`9與10`，選擇`10`進行換位。
+
 ![](http://yixiang8780.com/outImg/20170127-12.png)
+
+進行`10(root)`與`8(最後結點)`交換。
+
 ![](http://yixiang8780.com/outImg/20170127-13.png)
+
+再進行`Max Heap`。
+
 ![](http://yixiang8780.com/outImg/20170127-14.png)
+
+最後在進行交換，然後完成。
+
 ![](http://yixiang8780.com/outImg/20170127-15.png)
 
+> 注意，上述範例都是由小排到大，如果是要由大排到小的，需要將`Max Heap`修改為`Min Heap`，也就是每個父元素值要小於子元素。
+
+## 堆積排序法的執行效能
+
+### 最好與最壞情況
+
+$$ nlog_2n$$
 
 
-
-
+## 參考資料
+* [https://www.google.com.tw/search?q=heapsort&oq=heapsort&aqs=chrome..69i57j0j69i60j0l3.1495j0j4&sourceid=chrome&ie=UTF-8](https://www.google.com.tw/search?q=heapsort&oq=heapsort&aqs=chrome..69i57j0j69i60j0l3.1495j0j4&sourceid=chrome&ie=UTF-8)
