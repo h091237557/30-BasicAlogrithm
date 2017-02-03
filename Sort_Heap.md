@@ -1,10 +1,7 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 # 排序(3)之堆積排序法(Heap Sort)
 
-* 堆積排序法的原理
-* 堆積排序法的執行效能
-* `javascript`演算法實作
+
 
 ## 堆積排序法的原理
 
