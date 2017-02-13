@@ -1,6 +1,6 @@
 # 基礎資料結構(1)---陣列(Array)、堆疊(Stack)、佇列(Queue)
 
-接下來的幾篇文章，我們將要簡單說明幾個基礎的資料結構，那麼資料結構又是什麼呢?
+接下來的幾篇文章，我們將要說簡單說明幾個基礎的資料結構，那麼資料結構又是什麼呢?
 
 根據wiki的解答。
 
@@ -31,7 +31,7 @@
 ##  堆疊(Stack)
 它事實上與陣列很相似，只是它有幾個特殊的方，它只能允許在陣列的一端進行操作，而且按照『後進先出』 `LIFO, Last In First Out` 的原理運作。如下圖表示。
 
-![](http://yixiang8780.com/outImg/20170211-2.png)
+[
 
 然後我們簡單的用`javascript`來建立`stack`的資料結構，由於我們是要練習用，所以我們不使用`Js`的陣列內本來就有提供的`stack`方法。
 
@@ -189,6 +189,8 @@ console.log(queue.view());
 // dequque後的結果。
 { '2': 'B', '3': 'C' }
 ```
+完整程式碼在這，[傳送門](https://github.com/h091237557/30-BasicAlogrithm/blob/master/algorithm-js/baseDataStructure/linklist.js)。
+
 
 ## 參考資料
 * [https://zh.wikipedia.org/wiki/%E5%A0%86%E6%A0%88](https://zh.wikipedia.org/wiki/%E5%A0%86%E6%A0%88)
