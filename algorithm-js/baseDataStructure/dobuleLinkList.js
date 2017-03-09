@@ -1,4 +1,5 @@
 debugger;
+
 /**
  * Node
  * Node class
@@ -106,3 +107,4 @@ list.add("C");
 list.view();
 list.remove(1);
 list.view();
+

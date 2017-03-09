@@ -72,3 +72,4 @@ function heapSort(datas) {
 var datas = [8, 11, 9, 2, 10, 16];
 
 heapSort(datas);
+
