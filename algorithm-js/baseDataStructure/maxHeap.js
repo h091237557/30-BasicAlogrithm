@@ -1,4 +1,7 @@
-debugger;
+
+
+
+
 
 /**
  * swap
@@ -49,26 +52,16 @@ function maxHeapIfy(datas, root, length) {
 	}
 }
 
-/**
- * heapSort
- * heap sort datas
- * @param datas
- * @returns {undefined}
- */
-function heapSort(datas) {
-	var start = Math.floor(datas.length / 2) - 1,
-		len = datas.length;
+function transToHeap(datas) {
+	var start = Math.floor(datas.length / 2) - 1;
 	for (var i = start; i >= 0; i--) {
 		maxHeapIfy(datas, i, datas.length);
 	}
-
-	for (var j = len - 1; j >= 0; j--) {
-		swap(datas, 0, j);
-		maxHeapIfy(datas, 0, j);
-		console.log(datas);
-	}
+	console.log(datas);
 }
 
-var datas = [8, 11, 9, 2, 10, 16];
+var data = [14,16,4,17,42,20];
 
-heapSort(datas);
+transToHeap(data);
+
+

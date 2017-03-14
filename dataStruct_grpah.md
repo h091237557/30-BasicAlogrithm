@@ -1,4 +1,4 @@
-# 基礎資料結構(3)---圖形結構
+# 基礎資料結構(4)---圖形結構
 
 圖學理論(graph theory)它源於1736年的數學家 LeonHard Euler ，它為了解決`Koenigsberg bridge`問題而發展出來的理論，雖然`Koenigsberg bridge`問題不是我們這篇的重點，但還是簡單介紹一下這個圖論中的著名問題。
 
