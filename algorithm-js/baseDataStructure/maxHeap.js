@@ -60,7 +60,8 @@ function transToHeap(datas) {
 	console.log(datas);
 }
 
-var data = [14,16,4,17,42,20];
+//var data = [14,16,4,17,42,20];
+var data = [3,5,6,4,2,1];
 
 transToHeap(data);
 
